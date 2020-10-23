@@ -1,0 +1,37 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/smnc_bg.qm</file>
+        <file alias="ca">locale/smnc_ca.qm</file>
+        <file alias="cs">locale/smnc_cs.qm</file>
+        <file alias="da">locale/smnc_da.qm</file>
+        <file alias="de">locale/smnc_de.qm</file>
+        <file alias="en">locale/smnc_en.qm</file>
+        <file alias="en_GB">locale/smnc_en_GB.qm</file>
+        <file alias="en_US">locale/smnc_en_US.qm</file>
+        <file alias="eo">locale/smnc_eo.qm</file>
+        <file alias="es">locale/smnc_es.qm</file>
+        <file alias="es_ES">locale/smnc_es_ES.qm</file>
+        <file alias="fi">locale/smnc_fi.qm</file>
+        <file alias="fr_FR">locale/smnc_fr_FR.qm</file>
+        <file alias="hi_IN">locale/smnc_hi_IN.qm</file>
+        <file alias="hr">locale/smnc_hr.qm</file>
+        <file alias="hr_HR">locale/smnc_hr_HR.qm</file>
+        <file alias="it">locale/smnc_it.qm</file>
+        <file alias="ja">locale/smnc_ja.qm</file>
+        <file alias="ko_KR">locale/smnc_ko_KR.qm</file>
+        <file alias="lt_LT">locale/smnc_lt_LT.qm</file>
+        <file alias="nl">locale/smnc_nl.qm</file>
+        <file alias="pl">locale/smnc_pl.qm</file>
+        <file alias="pt">locale/smnc_pt.qm</file>
+        <file alias="pt_BR">locale/smnc_pt_BR.qm</file>
+        <file alias="ro_RO">locale/smnc_ro_RO.qm</file>
+        <file alias="ru">locale/smnc_ru.qm</file>
+        <file alias="sk">locale/smnc_sk.qm</file>
+        <file alias="sv">locale/smnc_sv.qm</file>
+        <file alias="tr">locale/smnc_tr.qm</file>
+        <file alias="uk">locale/smnc_uk.qm</file>
+        <file alias="vi">locale/smnc_vi.qm</file>
+        <file alias="zh_CN">locale/smnc_zh_CN.qm</file>
+        <file alias="zh_TW">locale/smnc_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=SMNC Coin
+Comment=SIMPLEMASTERNODE P2P Cryptocurrency
+Comment[fr]=SIMPLEMASTERNODE, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SIMPLEMASTERNODE, eşten eşe kriptografik sanal para birimi
+Exec=smnc-qt %u
+Terminal=false
+Type=Application
+Icon=smnc128
+MimeType=x-scheme-handler/smnc;
+Categories=Office;Finance;
+StartupWMClass=SimpleMasternode-qt

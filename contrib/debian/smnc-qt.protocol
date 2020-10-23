@@ -1,0 +1,11 @@
+[Protocol]
+exec=smnc-qt '%u'
+protocol=smnc
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

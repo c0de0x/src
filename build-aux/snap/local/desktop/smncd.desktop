@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=SMNC Coin Daemon SNAP
+Comment=main
+GenericName=SIMPLEMASTERNODE Digital Currency Daemon Client main network
+Exec=smnc-core.daemon %u
+Terminal=true
+Type=Application
+Icon=${SNAP}/share/pixmaps/smnc.png
+MimeType=x-scheme-handler/smnc;
+Categories=X-Office;X-Finance;
+Keywords=internet;smnc;zsmnc;core;wallet;daemon;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0

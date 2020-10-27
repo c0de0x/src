@@ -54,6 +54,9 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
 	(0, uint256("0x000009a172389e949c35c06ca8a016f28a92bcbc623e29495bc7671584343f21"))
+	(11365, uint256("0xf79038280664395e26ee3e8524426b5dd1fd67b2e762b43d83a054d40161b097"))
+	(12993, uint256("0xccb08773b7063d38f662ebbc3dd1c61ab966365497ba0caeaa69e495300d9eaa"))
+	(24500, uint256("0x15b4bd66bd74fc7bab1d3c3dbc3c6f54ca2a60ac05ffc404a309ac0ecba9cbba"))
 	;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -185,8 +188,8 @@ public:
         nInvalidAmountFiltered = 0*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 999999999; //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
         nBlockDoubleAccumulated = 1050010;
-        nEnforceNewSporkKey = 1566860400; //!> Sporks signed after Thursday, 30 July 2020 06:30:00 AM GMT must use the new spork key
-        nRejectOldSporkKey = 1596243600; //!> Fully reject old spork key after Saturday, 1 August 2020 01:00:00 AM GMT
+        nEnforceNewSporkKey = 1603778400; //!> Sporks signed after Thursday, 10 26 2020 06:00:00 AM GMT must use the new spork key
+        nRejectOldSporkKey = 1596243600; //!> Fully reject old spork key after Saturday, 1 August 2020 06:00:00 AM GMT
         nBlockStakeModifierlV2 = 320;
         nBIP65ActivationHeight = 330;
         // Activation height for TimeProtocolV2, Blocks V7 and newMessageSignatures
@@ -238,6 +241,9 @@ public:
 
 
         vSeeds.push_back(CDNSSeedData("104.156.250.121", "104.156.250.121"));
+        vSeeds.push_back(CDNSSeedData("202.182.108.107", "202.182.108.107"));
+        vSeeds.push_back(CDNSSeedData("136.244.116.14",  "136.244.116.14"));
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 24);
@@ -261,7 +267,7 @@ public:
 
         nPoolMaxTransactions = 3;
         nBudgetCycleBlocks = 43200; //!< Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)
-        strSporkPubKey = "04193aa1c2a2850d1bd0a4c77906c7486a1a1022d942aa0e6f4780dfbd2e975bba0af03710df04c214032d011cff5799451abe2564f0817ae0bc1dba1249fb2041";
+        strSporkPubKey = "04bb000f414dbdf2018cc211d833d6dbd2f31a14cf7aa3d9c002c546a864c74e88d761556cda29fbe3adaea27fe46d41da75b3e444869fcab16fdbdd513839aa2e";
         strSporkPubKeyOld = "04193aa1c2a2850d1bd0a4c77906c7486a1a1022d942aa0e6f4780dfbd2e975bba0af03710df04c214032d011cff5799451abe2564f0817ae0bc1dba1249fb2041";
         strObfuscationPoolDummyAddress = "CNA8jti7deabJ7vyJCTtFMkyW2t9aCaNVb";
         nStartMasternodePayments = 1576920000;

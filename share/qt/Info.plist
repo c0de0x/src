@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>1.0.0.0, Copyright © 2009-2020 The Bitcoin Core developers, 2014-2020 The Dash Core developers, 2015-2020 The SMNC Coin developers</string>
+  <string>1.0.0.1, Copyright © 2009-2020 The Bitcoin Core developers, 2014-2020 The Dash Core developers, 2015-2020 The SMNC Coin developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>1.0.0</string>

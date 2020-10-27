@@ -6,8 +6,8 @@ SimpleMasternode is a cryptocurrency blockchain, with an embedded Proof of Stake
 Users can contribute to the network in two separate ways. 
 Proof of Stake: 10% of every block reward goes to the stake holders of the project. 
 Individuals that stake will receive a portion of the POS rewards. 
-Masternodes: 90% of every bock reward goes to Masternode holders.
-More information at [smnccoin.com](http://www.smnccoin.com) 
+Masternodes: 80% of every bock reward goes to Masternode holders.
+More information at [smnc.org](http://www.smnc.org) 
 
 ### Coin Specs
 <table>
@@ -32,17 +32,17 @@ More information at [smnccoin.com](http://www.smnccoin.com)
 
 <table>
 <th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Miner</th>
-<tr><td>2-350</td><td>1 Smnc</td><td>90% (0.9 Smnc)</td><td>10% (0.1 Smnc)</td></tr>
+<tr><td>2-250</td><td>1 Smnc</td><td>90% (0.9 Smnc)</td><td>10% (0.1 Smnc)</td></tr>
 </table>
 
 ### PoS Rewards Breakdown
 
 <table>
 <th>Phase</th><th>Collateral</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>
-<tr><td>Phase 1</td><td>500 Smnc</td><td>251-8,000</td><td>1 Smnc</td><td>90% (0.8 Smnc)</td><td>10% (0.1 Smnc)</td></tr>
-<tr><td>Phase 2</td><td>400 Smnc</td><td>8,001-15,000</td><td>2.5 Smnc</td><td>90% (2.25 Smnc)</td><td>10% (0.25 Smnc)</td></tr>
-<tr><td>Phase 3</td><td>500 Smnc</td><td>15,001-25,000</td><td>3 Smnc</td><td>90% (2.7 Smnc)</td><td>10% (0.3 Smnc)</td></tr>
-<tr><td>Phase 4</td><td>600 Smnc</td><td>25,001-35,000</td><td>5 Smnc</td><td>90% (4.5 Smnc)</td><td>10% (0.5 Smnc)</td></tr>
+<tr><td>Phase 1</td><td>100 Smnc</td><td>251-5,000</td><td>2 Smnc</td><td>90% (1.8 Smnc)</td><td>10% (0.2 Smnc)</td></tr>
+<tr><td>Phase 2</td><td>250 Smnc</td><td>5,001-15,000</td><td>2.5 Smnc</td><td>90% (2.25 Smnc)</td><td>10% (0.25 Smnc)</td></tr>
+<tr><td>Phase 3</td><td>350 Smnc</td><td>15,001-25,000</td><td>3 Smnc</td><td>90% (2.7 Smnc)</td><td>10% (0.3 Smnc)</td></tr>
+<tr><td>Phase 4</td><td>500 Smnc</td><td>25,001-35,000</td><td>5 Smnc</td><td>90% (4.5 Smnc)</td><td>10% (0.5 Smnc)</td></tr>
 <tr><td>Phase 5</td><td>700 Smnc</td><td>35,001-55,000</td><td>7 Smnc</td><td>90% (6.3 Smnc)</td><td>10% (0.7 Smnc)</td></tr>
 <tr><td>Phase 6</td><td>1,000 Smnc</td><td>55,001-100,000</td><td>10 Smnc</td><td>90% (9 Smnc)</td><td>10% (1 Smnc)</td></tr>
 <tr><td>Phase 7</td><td>10,000 Smnc</td><td>100,001-110,000</td><td>45 Smnc</td><td>90% (41.5 Smnc)</td><td>10% (4.5 Smnc)</td></tr>
